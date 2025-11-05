@@ -231,24 +231,24 @@
         justify-content: center;
         align-items: center;
     }
-    .icones img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
-        margin-top: -5px;
-        margin: 10px;
-        border: none;
-        border-radius: 0px;
-    }
-    .icones a {
+    .github {
         background-color: #F53B49;
-        border-radius: 50%;
-        margin: 10px;
-        height: 60px;
+        background-image: url("Icones/github.svg");
+        background-repeat: no-repeat;
+        background-position: 51.24% 55%;
+        background-size: 80%;
+        color: white; 
+        border: none; 
+        border-radius: 50%; 
+        width: 50px; 
+        height: 50px; 
+        font-size: 24px;
+        cursor: pointer;
+        margin: 5px;
     }
-    .icones a:hover {
+    .github:hover {
         background-color: #bd1321;
-    }
+    }    
     .footer-abaixo {
         background-color: #F53B49;
         color: white;
